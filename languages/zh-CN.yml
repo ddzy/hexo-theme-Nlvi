@@ -7,6 +7,9 @@ nav:
   menu: 菜单
   search: 搜索
   RSS: 订阅
+  frontend: 前端
+  backend: 后端
+  essay: 随笔
 
 page:
   prev: < 上一页

@@ -5,7 +5,7 @@
         <span>❤</span>
         <span>{{ config.author }}</span>
     </div>
-    <div class="theme">
+    <!--<div class="theme">
         <span>
             {{ __('come') }}
             <a href="http://hexo.io/" target="_blank">Hexo </a>
@@ -14,13 +14,13 @@
             {{ __('theme') }}
             <a href="https://github.com/ColMugX/hexo-theme-Nlvi"> Nlvi </a>
         </span>
-    </div>
+    </div> -->
     {% if theme.visit_count %}
     <div class="visit_count">
-        <i class="iconfont icon-visit"></i>
-        <span id="busuanzi_value_site_uv"></span>
-        <i class="iconfont icon-people"></i>
-        <span id="busuanzi_value_site_pv"></span>
+        <span id="busuanzi_container_site_pv">
+            本站总访问量:
+            <span id="busuanzi_value_site_pv"></span>次
+        </span>
     </div>
     {% endif %}
 </div>

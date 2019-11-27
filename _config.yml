@@ -3,15 +3,18 @@
 # ===========================================
 
 #navigation
-menu: 
+menu:
   article: /
   archives: /archives
   tags: /tags
-  about: /about
+  # about: /about
   # RSS: /atom.xml
+  # essay: /categories/essay
+  # frontend: /categories/frontend
 
 # favicon
-favicon: 
+favicon: /favicon.ico
+
 
 # ===========================================
 # Color&Schemes Setting
@@ -25,7 +28,7 @@ mobile-header: light
 
 # Scheme
 # banderole | balance
-scheme: banderole
+scheme: balance
 
 ## Banderole
 # Header Style
@@ -33,11 +36,11 @@ scheme: banderole
 header-style: block
 
 # Article Header Sign
-header_sign: ∮
+header_sign: ＄
 
 # theme-style
 # miku | sakura | dark | green | blue | purple
-theme-style: green
+theme-style: blue
 
 # ===========================================
 # Article Setting
@@ -49,7 +52,7 @@ toc: true
 # Use copyright infomation
 copyright:
   enable: true
-  # license: 
+  # license: MIT
 
 #Reword button or message(fill your QRCode of any Pay.)
 reward:
@@ -65,32 +68,41 @@ reward:
 # ===========================================
 
 # Comments // Please only switch one on.
-comments: 
+comments:
   enable: true
 
-  # disqus: 
+  # disqus:
   # livere_datauid:
 
   # changyan:
-  #   appid: 
-  #   appkey: 
+  #   appid: cyu3LUqFV
+  #   appkey: 2fab6348aaa253b461e5d6e4c1b1b26b
 
   # gitment:
-  #   owner:
-  #   repo:
-  #   client_id:
-  #   client_secret:
+  #   owner: ddzy
+  #   repo: ddzy.github.io
+  #   client_id: 'da227abbfeb5b4d39457'
+  #   client_secret: 'd861af429b9fd372e91933c6c20d2daeb872dc4e'
+
+  gitalk:
+    owner: ddzy
+    repo: blog
+    client_id: 45d303490a6b33b33a74
+    client_secret: cf3b8d0a0721a1fec9c38847c76d998fd0f72d07
+    admin: [ddzy]
 
 # sub //Please just fill out ID.
 sub:
-  facebook: 1
-  twitter: 2
-  instagram: 3
-  weibo: 4
-  zhihu: 5
-  github: 6
-  linkedin: 7
-  douban: 8
+  # facebook: 1
+  # twitter: 2
+  # instagram: 3
+  # weibo: 4
+  # zhihu: 5
+  # github: 6
+  # linkedin: 7
+  # douban: 8
+  zhihu: bu-jing-tong-jsbu-zhao-dui-xiang-81/activities
+  github: ddzy
 
 #Friend link
 # friendLink:
@@ -104,41 +116,43 @@ analytics:
   baidu:
 
 #visit_count(Powered by busuanzi on http://busuanzi.ibruce.info/)
-visit_count: false
+visit_count: true
 
 # ===========================================
 # Theme Settings
 # ===========================================
 
 # mathjax
-mathjax: false
+mathjax: true
 
 # lightbox
 lightbox: true
 
 # lazyload
-lazyload: false
+lazyload: true
 
 # animate (Powered by Syuanpi on https://colmugx.github.io/Syuanpi.css)
 animate: true
 
 # Created Time
-since: 2016
+since: 2018
 
 # plugin
 # plugins:
 
 # about
-# self:  
+# self:
+self: FE
 
 # ===========================================
 # Search Settings
 # ===========================================
 
-# Search 
+# Search
 search:
   enable: true
   label: 搜索一下？
+  baseUrl: /blog
 
 # ===========================================
 # Documents Styles

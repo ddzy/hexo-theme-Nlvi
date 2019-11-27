@@ -53,7 +53,8 @@
     for $k, $v in $heading-list
       {$k}
         font-family $article-fonts
-        font-weight inherit
+        // font-weight inherit
+        font-weight 600
         margin (yard*2) 0
         &:before
           content ($header-sign + ' ')
@@ -99,9 +100,17 @@
             left 0
             right 0
 
+    li
+      margin-top 8px
+
+    figure
+      margin 20px 0
+
     p
       font-family inherit
       line-height line-height
+      margin-bottom 16px
+      margin-top 16px
 
     strong
       font-weight 600
@@ -129,11 +138,14 @@
 
     blockquote
       position relative
-      margin yard (yard*2)
-      padding (yard/4) yard
+      // margin yard (yard*2)
+      margin (yard * 2)
+      // padding (yard/4) yard
+      padding (yard - 2) (yard * 2 + 2)
       background-color rgba($theme-color-main, .1)
       border-left 4px solid $theme-color-main
       color mix(#282626, $theme-color-main)
+      box-shadow 3px 4px 20px rgba(64,74,138, .2)
       &:before
         content ''
         position absolute
@@ -154,3 +166,10 @@
 #disqus_thread
   a
     color $theme-color-text
+
+.post-img-lazyload-cover
+  width 100%
+  height 0
+  padding-top 75%
+  background-color #ddd
+  background-size 100%

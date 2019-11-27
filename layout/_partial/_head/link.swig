@@ -13,7 +13,7 @@
 
 {# favicon #}
 {% if theme.favicon %}
-    <link rel="icon" href="{{ theme.favicon }}">
+    <link rel="icon" href="{{ theme.favicon }}" type="image/x-ico">
 {% endif %}
 
 {# any analytics #}
