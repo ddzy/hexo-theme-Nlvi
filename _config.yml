@@ -87,8 +87,13 @@ comments:
   gitalk:
     owner: ddzy
     repo: blog
-    client_id: 45d303490a6b33b33a74
-    client_secret: cf3b8d0a0721a1fec9c38847c76d998fd0f72d07
+    # blog.yyge.top 配置
+    # client_id: 45d303490a6b33b33a74
+    # client_secret: cf3b8d0a0721a1fec9c38847c76d998fd0f72d07
+
+    # yyge.top/blog 配置
+    client_id: f6cc91c3b7fe75e2fee1
+    client_secret: 6e51b95137173fd574d6298de23039e44405adff
     admin: [ddzy]
 
 # sub //Please just fill out ID.
