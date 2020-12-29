@@ -60,8 +60,10 @@
           content ($header-sign + ' ')
 
     table
-      min-width 50%
+      // min-width 50%
+      width 100%
       margin 16px 0
+      border 1px solid #f3f4f5
       border-collapse: collapse
       list-style none
       line-height 1.5
@@ -73,7 +75,8 @@
       th
       td
         min-width 100px
-        padding 8px
+        padding 12px
+        border 1px solid #f3f4f5
       thead
         background-color #fafafa
 
@@ -131,10 +134,15 @@
 
     code
       background-color rgba($theme-color-main, .1)
-      color mix(#000, $theme-color-link)
+      color mix(#333, $theme-color-link)
       font-family $code-fonts
       margin 0 (yard/2)
-      padding 0 (yard/2)
+      // padding 0 (yard/2)
+      padding 2px (yard / 2)
+      border 1px solid rgba($theme-color-main, .5)
+      border-radius 4px
+      white-space: normal;
+    word-break: break-word;
 
     blockquote
       position relative
